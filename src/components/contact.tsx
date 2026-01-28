@@ -12,30 +12,30 @@ function Contact() {
                   </p>
               </div>
               <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-750 transition-colors">
+                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-800/70 transition-colors border border-gray-700">
                       <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                           <Phone className="h-8 w-8" />
                       </div>
                       <h3 className="text-lg font-semibold mb-2">Call Us</h3>
                       <p className="text-gray-300">+91 7225875938</p>
                   </div>
-                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-750 transition-colors">
+                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-800/70 transition-colors border border-gray-700">
                       <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                           <Mail className="h-8 w-8" />
                       </div>
                       <h3 className="text-lg font-semibold mb-2">Email Us</h3>
                       <p className="text-gray-300">info@princegraphics.com</p>
                   </div>
-                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-750 transition-colors">
+                  <div className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-800/70 transition-colors border border-gray-700">
                       <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                           <MapPin className="h-8 w-8" />
                       </div>
                       <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
-                      <p className="text-gray-300">Indore,Madhya Pradesh</p>
+                      <p className="text-gray-300">Indore, Madhya Pradesh</p>
                   </div>
               </div>
               <div className="mt-12 text-center">
-                  <a href="tel:+15551234567" className="inline-flex items-center bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-colors text-lg font-semibold">
+                  <a href="tel:+917225875938" className="inline-flex items-center bg-orange-600 text-white px-8 py-4 rounded-xl hover:bg-orange-700 transition-colors text-lg font-semibold">
                       Request a Quote
                       <ArrowRight className="ml-2 h-5 w-5" />
                   </a>

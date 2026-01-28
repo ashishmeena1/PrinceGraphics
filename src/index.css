@@ -24,5 +24,57 @@
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
+    font-family: theme(fontFamily.sans);
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer base {
+  ::selection {
+    background: rgb(249 115 22 / 0.35);
+    /* orange-500 */
+  }
+}
+
+@layer components {
+  .pg-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .pg-section {
+    @apply py-20;
+  }
+
+  .pg-title {
+    @apply text-4xl md:text-5xl font-bold tracking-tight text-white;
+  }
+
+  .pg-subtitle {
+    @apply mt-3 text-gray-300 max-w-2xl;
+  }
+
+  .pg-btn {
+    @apply inline-flex items-center justify-center rounded-xl font-semibold transition-colors;
+  }
+
+  .pg-btn-primary {
+    @apply pg-btn bg-orange-600 text-white hover:bg-orange-700 shadow-sm;
+  }
+
+  .pg-btn-outline {
+    @apply pg-btn border border-orange-500/80 text-orange-400 hover:bg-orange-500 hover:text-gray-900;
+  }
+
+  .pg-card {
+    @apply rounded-2xl border border-gray-800 bg-gray-900/60 shadow-sm;
   }
 }

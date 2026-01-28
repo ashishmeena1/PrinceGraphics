@@ -5,6 +5,9 @@ export default {
 
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["\"Plus Jakarta Sans\"", "ui-sans-serif", "system-ui", "sans-serif"],
+			},
 			animation: {
 				scroll:
 					"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
